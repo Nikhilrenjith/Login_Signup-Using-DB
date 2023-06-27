@@ -3,16 +3,17 @@
   padding: 0;
 }
 body {
-  display: grid;
-  place-items: center;
-  background-color: rgb(175, 196, 175);
+  display: flex;
+  flex-direction: column;
+  background-color: #455860;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-  /* color: rgb(223, 155, 52); */
+  color: rgb(223, 155, 52);
   margin-top: 20vh;
   margin-bottom: 30px;
-  color: white;
 }
 input {
   font-size: 1rem;
@@ -21,14 +22,14 @@ input {
   margin: 10px 0 10px 0;
 }
 .sub {
-  background-color: cyan;
+  background-color: rgb(223, 155, 52);
   cursor: pointer;
 }
 
 form {
   /* margin-top: 20vh; */
   text-align: center;
-  border: 5px solid rgb(127, 132, 135);
+  border: 5px solid rgb(111, 70, 23);
   padding: 20px;
-  background-color: rgb(167, 243, 251);
+  background-color: rgb(239, 192, 135);
 }
